@@ -29,4 +29,4 @@ expo install expo-linear-gradient <br/>
 expo install expo-speech <br/> 
 expo install expo-image-picker </br> 
 expo instal react-native-paper </br> 
-
+expo install lottie-react-native </br> 
