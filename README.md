@@ -18,7 +18,7 @@ expo install react-native-safe-area-context <br/>
 expo install @react-navigation/drawer <br/> 
 expo install @react-navigation/bottom-tabs <br/> 
 expo install react-native-gesture-handler </br>  
-
+expo install react-native-reanimated@1.13.2 </br> 
 
 **Icones, constantes e gradientes:** 
 
