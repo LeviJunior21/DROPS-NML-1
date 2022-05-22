@@ -5,7 +5,7 @@
 </div>
 
 **SDK Version: 44.0.0** 
-
+**React Native Version: 0.64.0** 
 **Bibliotecas a serem instaladas usando o NPM:**
 
 npm install @react-navigation/native <br/> 
