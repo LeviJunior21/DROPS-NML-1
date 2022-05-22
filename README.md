@@ -28,5 +28,5 @@ expo install expo-constants <br/>
 expo install expo-linear-gradient <br/> 
 expo install expo-speech <br/> 
 expo install expo-image-picker </br> 
-expo instal react-native-paper </br> 
+expo instal react-native-paper </br>  
 
