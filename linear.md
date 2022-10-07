@@ -32,12 +32,8 @@ w
 
 Primeiro, devemos fazer o determinante da Matriz A:
 
-$$A = \begin{bmatrix}
+$$\begin{vmatrix}
 u\\
 v\\
 w
-\end{bmatrix}
-\begin
-ss
-\end
-$$ 
+\end{vmatrix}=ad-bc$$
