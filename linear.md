@@ -41,6 +41,7 @@ a31 & a32 & a33
 
 <b>a11 * a22 * a33 + a12 * a23 * a31 + a13 * a21 * a32 - (a31 * a22 * a13 + a32 * a23 * a11 + a33 * a21 * a12)</b>
 
+
 Ao determinar o valor de Δ através do determinante da matriz dos coeficientes, vaamos fazer a seguinte operação:
 
 Substitua a matriz dos termos independentes na primeira coluna da matriz dos coeficientes e em seguida, calcule o determinante.
@@ -53,6 +54,7 @@ w & a32 & a33
 \end{vmatrix} = $$
 
 <b>u * a22 * a33 + a12 * a23 * w + a13 * v * a32 - (w * a22 * a13 + a32 * a23 * u + a33 * v * a12)</b>
+
 
 Determinando x:
 
