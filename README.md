@@ -21,7 +21,7 @@ expo install @react-navigation/bottom-tabs <br/>
 expo install react-native-gesture-handler </br> 
 expo install react-native-reanimated@1.13.2 </br> 
 
-**Icones, constantes e gradientes:** 
+**Icones, constantes e gradientes:**   
 
 expo install react-native-vector-icons <br/> 
 expo install @expo/vector-icons <br/> 
