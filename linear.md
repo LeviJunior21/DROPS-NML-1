@@ -36,4 +36,4 @@ $$A = \begin{bmatrix}
 u\\
 v\\
 w
-\end{bmatrix}$$ = a
+\end{bmatrix}$$ = 
