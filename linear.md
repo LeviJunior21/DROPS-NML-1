@@ -54,6 +54,7 @@ w & a32 & a33
 
 ```Δx = u . a22 . a33 + a12 . a23 . w + a13 . v . a32 - (w . a22 . a13 + a32 . a23 . u + a33 . v . a12)```
 
+
 Determinando x:
 
 $$x = \frac{Δx}{Δ}$$
@@ -61,7 +62,7 @@ $$x = \frac{Δx}{Δ}$$
 Substitua a matriz dos termos independentes de B na segunda coluna da matriz dos coeficientes e em seguida, calcule o determinante.
 Seja Δy 
 
-$$Δx = det\begin{vmatrix}
+$$Δy = det\begin{vmatrix}
 a11 & u & a13\\
 a21 & v & a23\\
 a31 & w & a33
@@ -70,7 +71,7 @@ a31 & w & a33
 ```Δy = a11 . v . a33 + u . a23 . a31 + a13 . a21 . w - (a21 . v . a13 + w . a23 . a11 + a33 . a21 . u)```
 
 
-Determinando x:
+Determinando y:
 
 $$y = \frac{Δy}{Δ}$$
 
