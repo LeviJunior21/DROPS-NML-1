@@ -92,4 +92,4 @@ $$z = \frac{Δz}{Δ}$$
 
 E assim, determinamos x, y e z de tal modo que satisfaça o nosso sistema de equações.
 
-**Lembre-se de que para até o R³ (espaço euclidiano tridimensional) você pode usar a Regra de Sarrus e para para qualquer espaço euclidiano, você pode usar o método de Laplace para calcular o determinante**
+**Lembre-se de que para até o R³ (espaço euclidiano tridimensional) você pode usar a Regra de Sarrus e para para qualquer espaço euclidiano, você pode usar o método de Laplace para calcular o determinante.**
