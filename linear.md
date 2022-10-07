@@ -1,5 +1,5 @@
 ---
-title: Regra de Crammer
+<h1>Regra de Crammer</h1>
 ---
 
 ### O que é a Regra de Crammer?
