@@ -14,3 +14,8 @@ $$
 \begin{cases} `x+2y+3z=2\\\\2x+3y-1z=-2\\\\3x+2y+z=2` \end{cases}
 $$
 
+$$X = \begin{bmatrix}
+1 & 2 & 3\\
+2 & 3 & -1\\
+3 & 2 & 1
+\end{bmatrix}$$
