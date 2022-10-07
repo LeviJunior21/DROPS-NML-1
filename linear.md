@@ -37,9 +37,7 @@ u\\
 v\\
 w
 \end{bmatrix}
-\begin{bmatrix}
-u\\
-v\\
-w
-\end{bmatrix}
+\begin
+ss
+\end
 $$ 
