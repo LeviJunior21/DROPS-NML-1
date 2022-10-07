@@ -29,3 +29,11 @@ u\\
 v\\
 w
 \end{bmatrix}$$
+
+Primeiro, devemos fazer o determinante da Matriz A:
+
+$$A = \begin{bmatrix}
+u\\
+v\\
+w
+\end{bmatrix}$$ = a
