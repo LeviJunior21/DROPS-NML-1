@@ -87,3 +87,5 @@ a31 & a32 & w
 Determinando z:
 
 $$z = \frac{Δz}{Δ}$$
+
+E assim, determinamos x, y e z de tal modo que satisfaça o nosso sistema de equações.
