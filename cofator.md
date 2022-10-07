@@ -26,7 +26,7 @@ a31 & a32 & a33
 Para cada elemento da matriz dos cofatores valerá a seguinte relação:
 Suponha que queremos descobrir o elemento Δ31. Assim, iremos fazer a seguinte relação: (-1)x<sup>(3+1)</sup> vezes o determinte da matriz A mas excluindo a primeira linha e terceira coluna.
 
-$$Δ11 = {(-1)x^(1+1)} det
+$$Δ11 = {(-1)x^{(1+1)}} det
 \begin{bmatrix}
 a21 & a22\\
 a31 & a32
