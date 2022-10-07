@@ -36,4 +36,4 @@ $$\begin{vmatrix}
 a11 & a12 & a13\\
 a21 & a22 & a23\\
 a31 & a32 & a33
-\end{vmatrix}=a11 x a22 x a33 + a12 x a23 + a31 + a13 x a21 x a32 - (a31 x a22 a13 + a32 x a23 x a11 + a33 x a21 x a12)$$
+\end{vmatrix}=[a11 * a22 x a33 + a12 x a23 + a31 + a13 x a21 x a32 - (a31 x a22 a13 + a32 x a23 x a11 + a33 x a21 x a12)$$
