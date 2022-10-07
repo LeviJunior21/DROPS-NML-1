@@ -59,7 +59,7 @@ Determinando x:
 $$x = \frac{Δx}{Δ}$$
 
 Substitua a matriz dos termos independentes na segunda coluna da matriz dos coeficientes e em seguida, calcule o determinante.
-Seja Δx 
+Seja Δy 
 
 $$Δx = det\begin{vmatrix}
 a11 & u & a13\\
@@ -68,6 +68,21 @@ a31 & w & a33
 \end{vmatrix} = $$
 
 Δy = a11 * v * a33 + u * a23 * a31 + a13 * a21 * w - (a21 * v * a13 + w * a23 * a11 + a33 * a21 * u)
+
+Determinando x:
+
+$$y = \frac{Δy}{Δ}$$
+
+Substitua a matriz dos termos independentes na terceira coluna da matriz dos coeficientes e em seguida, calcule o determinante.
+Seja Δz 
+
+$$Δz = det\begin{vmatrix}
+a11 & a12 & u\\
+a21 & a22 & v\\
+a31 & a32 & w
+\end{vmatrix} = $$
+
+Δz = a11 * a22 * w + a12 * v * a31 + u * a21 * a32 - (a21 * a22 * u + a32 * v * a11 + w * a21 * a12
 
 Determinando x:
 
