@@ -26,10 +26,10 @@ a31 & a32 & a33
 Para cada elemento da matriz dos cofatores valerá a seguinte relação:
 Suponha que queremos descobrir o elemento Δ31. Assim, iremos fazer a seguinte relação: (-1)x<sup>(3+1)</sup> vezes o determinte da matriz A mas excluindo a primeira linha e terceira coluna.
 
-$$Δ11 = (-1)x<sup>(1+1)</sup> det
+$$Δ11 = {(-1)x<sup>(1+1)</sup>} det
 \begin{bmatrix}
 a21 & a22\\
-& a31 & a32
+a31 & a32
 \end{bmatrix}$$
 
 Por definição, a base é (-1) mas o expoente sempre muda. O expoente é a soma dos índices de cada elemento da matriz, o primeiro índice significa o número da primeira linha da matriz e o segundo indice significa o número da coluna da matriz.
