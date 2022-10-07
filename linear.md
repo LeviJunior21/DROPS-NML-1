@@ -30,7 +30,7 @@ v\\
 w
 \end{bmatrix}$$
 
-### Primeiro, devemos fazer o determinante da Matriz A:
+### Primeiro, devemos fazer o determinante da Matriz dos coeficientes:
 Seja Δ o determinante da matriz A.
 
 $$Δ = det\begin{vmatrix}
