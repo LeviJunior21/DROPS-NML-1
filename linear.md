@@ -57,3 +57,18 @@ w & a32 & a33
 Determinando x:
 
 $$x = \frac{Δx}{Δ}$$
+
+Substitua a matriz dos termos independentes na segunda coluna da matriz dos coeficientes e em seguida, calcule o determinante.
+Seja Δx 
+
+$$Δx = det\begin{vmatrix}
+a11 & u & a13\\
+a21 & v & a23\\
+a31 & w & a33
+\end{vmatrix} = $$
+
+Δy = a11 * v * a33 + u * a23 * a31 + a13 * a21 * w - (a21 * v * a13 + w * a23 * a11 + a33 * a21 * u)
+
+Determinando x:
+
+$$y = \frac{Δy}{Δ}$$
