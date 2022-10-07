@@ -36,4 +36,10 @@ $$A = \begin{bmatrix}
 u\\
 v\\
 w
-\end{bmatrix}$$ 
+\end{bmatrix}
+\begin{bmatrix}
+u\\
+v\\
+w
+\end{bmatrix}
+$$ 
