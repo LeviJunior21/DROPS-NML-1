@@ -29,6 +29,4 @@ eq <-  noquote(paste(expression("2x+5y-2z+2p=9\\\\3x-2y+1z-3p=34\\\\-3x+3y+2z+4p
 $$
 \begin{cases} `r eq` \end{cases}
 $$
-```{r equation}
-eq <-  noquote(paste(expression("x+2y+3z=2\\\\2x+3y-1z=-2\\\\3x+2y+z=2")))
-```
+
