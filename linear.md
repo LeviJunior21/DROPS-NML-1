@@ -50,4 +50,6 @@ v & a22 & a23\\
 w & a32 & a33
 \end{vmatrix} = u * a22 * a33 + a12 * a23 * w + a13 * v * a32 - (w * a22 * a13 + a32 * a23 * u + a33 * v * a12)$$
 
-x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b
+Determinando x:
+
+x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}
