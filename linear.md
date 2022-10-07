@@ -21,3 +21,11 @@ $$A = \begin{bmatrix}
 2 & 3 & -1\\
 3 & 2 & 1
 \end{bmatrix}$$
+
+E seja a matriz dos termos indepedentes:
+
+$$A = \begin{bmatrix}
+2\\
+-2\\
+2
+\end{bmatrix}$$
