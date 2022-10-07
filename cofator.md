@@ -25,4 +25,9 @@ a31 & a32 & a33
 
 Para cada elemento da matriz dos cofatores valerá a seguinte relação:
 
-Δ11 = (-1)x<sup>(1+1)</sup>
+$$Δ11 = (-1)x<sup>(1+1)</sup> det
+\begin{bmatrix}
+a11 & a12 & a13\\
+a21 & a22 & a23\\
+a31 & a32 & a33
+\end{bmatrix}$$
