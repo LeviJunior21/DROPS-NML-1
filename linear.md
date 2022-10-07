@@ -33,7 +33,7 @@ w
 ### Primeiro, devemos fazer o determinante da Matriz A:
 Seja Δ o determinante da matriz A.
 
-$$Δ = \begin{vmatrix}
+$$Δ = det\begin{vmatrix}
 a11 & a12 & a13\\
 a21 & a22 & a23\\
 a31 & a32 & a33
