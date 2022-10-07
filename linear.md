@@ -22,9 +22,9 @@ a21 & a22 & a23\\
 a31 & a32 & a33
 \end{bmatrix}$$
 
-E seja a matriz dos termos indepedentes:
+E seja B a matriz dos termos indepedentes:
 
-$$A = \begin{bmatrix}
+$$B = \begin{bmatrix}
 u\\
 v\\
 w
@@ -43,7 +43,7 @@ a31 & a32 & a33
 
 Ao determinar o valor de Δ através do determinante da matriz dos coeficientes, vamos fazer a seguinte operação:
 
-Substitua a matriz dos termos independentes na primeira coluna da matriz dos coeficientes e em seguida, calcule o determinante.
+Substitua a matriz dos termos independentes de B na primeira coluna da matriz dos coeficientes e em seguida, calcule o determinante.
 Seja Δx 
 
 $$Δx = det\begin{vmatrix}
@@ -58,7 +58,7 @@ Determinando x:
 
 $$x = \frac{Δx}{Δ}$$
 
-Substitua a matriz dos termos independentes na segunda coluna da matriz dos coeficientes e em seguida, calcule o determinante.
+Substitua a matriz dos termos independentes de B na segunda coluna da matriz dos coeficientes e em seguida, calcule o determinante.
 Seja Δy 
 
 $$Δx = det\begin{vmatrix}
@@ -74,7 +74,7 @@ Determinando x:
 
 $$y = \frac{Δy}{Δ}$$
 
-Substitua a matriz dos termos independentes na terceira coluna da matriz dos coeficientes e em seguida, calcule o determinante.
+Substitua a matriz dos termos independentes de B na terceira coluna da matriz dos coeficientes e em seguida, calcule o determinante.
 Seja Δz 
 
 $$Δz = det\begin{vmatrix}
