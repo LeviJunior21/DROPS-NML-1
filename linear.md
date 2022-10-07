@@ -36,4 +36,4 @@ $$\begin{vmatrix}
 u\\
 v\\
 w
-\end{vmatrix}=ad-bc$$
+\end{vmatrix}=a11 x a22 x a33 + a12 x a23 + a31 + a13 x a21 x a32$$
