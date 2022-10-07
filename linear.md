@@ -43,6 +43,7 @@ Ao determinar o valor de Δ através do determinante da matriz dos coeficientes,
 
 Substitua a matriz dos termos independentes na primeira coluna da matriz dos coeficientes e em seguida, calcule o determinante.
 Seja Δx 
+
 $$Δx = det\begin{vmatrix}
 u & a12 & a13\\
 v & a22 & a23\\
