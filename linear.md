@@ -39,7 +39,7 @@ a21 & a22 & a23\\
 a31 & a32 & a33
 \end{vmatrix} = $$
 
-$$Δ = a11 * a22 * a33 + a12 * a23 * a31 + a13 * a21 * a32 - (a31 * a22 * a13 + a32 * a23 * a11 + a33 * a21 * a12)$$
+Δ = a11 $$\times$$ a22 * a33 + a12 * a23 * a31 + a13 * a21 * a32 - (a31 * a22 * a13 + a32 * a23 * a11 + a33 * a21 * a12)
 
 Ao determinar o valor de Δ através do determinante da matriz dos coeficientes, vaamos fazer a seguinte operação:
 
