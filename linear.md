@@ -39,7 +39,7 @@ a21 & a22 & a23\\
 a31 & a32 & a33
 \end{vmatrix} = $$
 
-```Δ = a11 . a22 . a33 + a12 . a23 . a31 + a13 . a21 . a32 - (a31 . a22 . a13 + a32 . a23 . a11 + a33 . a21 . a12)```
+```Δ = (a11 . a22 . a33 + a12 . a23 . a31 + a13 . a21 . a32) - (a31 . a22 . a13 + a32 . a23 . a11 + a33 . a21 . a12)```
 
 Ao determinar o valor de Δ através do determinante da matriz dos coeficientes, vamos fazer a seguinte operação:
 
@@ -52,7 +52,7 @@ v & a22 & a23\\
 w & a32 & a33
 \end{vmatrix} = $$
 
-```Δx = u . a22 . a33 + a12 . a23 . w + a13 . v . a32 - (w . a22 . a13 + a32 . a23 . u + a33 . v . a12)```
+```Δx = (u . a22 . a33 + a12 . a23 . w + a13 . v . a32) - (w . a22 . a13 + a32 . a23 . u + a33 . v . a12)```
 
 
 Determinando x:
@@ -68,7 +68,7 @@ a21 & v & a23\\
 a31 & w & a33
 \end{vmatrix} = $$
 
-```Δy = a11 . v . a33 + u . a23 . a31 + a13 . a21 . w - (a21 . v . a13 + w . a23 . a11 + a33 . a21 . u)```
+```Δy = (a11 . v . a33 + u . a23 . a31 + a13 . a21 . w) - (a21 . v . a13 + w . a23 . a11 + a33 . a21 . u)```
 
 
 Determinando y:
@@ -84,7 +84,7 @@ a21 & a22 & v\\
 a31 & a32 & w
 \end{vmatrix} = $$
 
-```Δz = a11 . a22 . w + a12 . v . a31 + u . a21 . a32 - (a21 . a22 . u + a32 . v . a11 + w . a21 . a12)```
+```Δz = (a11 . a22 . w + a12 . v . a31 + u . a21 . a32) - (a21 . a22 . u + a32 . v . a11 + w . a21 . a12)```
 
 Determinando z:
 
