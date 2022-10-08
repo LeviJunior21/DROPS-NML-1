@@ -115,7 +115,9 @@ $$Cof(A)= \begin{bmatrix}
 Δ31 & Δ32 & Δ33
 \end{bmatrix}$$
 
-**Além disso, caso queira a adjunta (Adj(A)) da matriz A, basta apenas fazer a matriz transposta do cofator.**
+**Além disso, caso queira a adjunta calcular a Adj(A) da matriz A, basta apenas fazer a matriz transposta do cofator.**
 **E caso queira a matriz inversa, basta fazer**
 $$Adj(A) = Cof(A)^{T}$$
 $$A^{-1} = \frac{1}{det(A)} . Adj(A)$$
+
+Lembrando que para calcular inversas, temos 3 métodos, uma delas usa cofator.
