@@ -77,7 +77,7 @@ a31 & a33
 
 ### (2 + 3) seria a segunda linha e terceira coluna.
 
-$$Δ13 = {(-1)x^{(2+3)} det
+$$Δ13 = {(-1)x^{(2+3)}} det
 \begin{bmatrix}
 a11 & a12\\
 a31 & a32
