@@ -11,7 +11,7 @@ A Regra de Crammer é uma das formas de achar os valores dos coeficeintes em um 
 Considere o sistema de equações a seguir:
 
 $$
-\begin{cases} `a11x+a12y+a13z=u\\\\a21x+a22y-a23z=v\\\\a31x+a32y+a33z=w` \end{cases}
+\begin{cases} `a11x+a12y+a13z=u\\\\a21x+a22y+a23z=v\\\\a31x+a32y+a33z=w` \end{cases}
 $$
 
 Dado o sistema, iremos chamar a <r>**matriz dos coeficientes**</r> de A:
