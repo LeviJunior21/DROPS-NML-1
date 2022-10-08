@@ -15,6 +15,7 @@ a31 & a32 & a33
 Para se calcular a matriz dos cofatores, você deve-se calcular os cofatores de todos elementos da matriz, se você tiver uma matriz (NxN), então voce terá que calcular (NxN) cofatores.
 
 Suponha a matriz acima e que queremos verificar a matriz dos cofatores de A.
+
 A matriz dos cofatores de A será da seguinte forma:
 
 $$Cof(A)= \begin{bmatrix}
