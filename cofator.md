@@ -25,7 +25,7 @@ $$Cof(A)= \begin{bmatrix}
 \end{bmatrix}$$
 
 Para cada elemento da matriz dos cofatores valerá a seguinte relação:
-Suponha que queremos descobrir o elemento Δ13. Assim, iremos fazer a seguinte relação: (-1)x<sup>(1+3)</sup> vezes o determinte da matriz A mas excluindo a primeira linha e terceira coluna.
+Suponha que queremos descobrir o elemento Δ13. Assim, iremos fazer a seguinte relação: (-1)<sup>(1+3)</sup> vezes o determinte da matriz A mas excluindo a primeira linha e terceira coluna.
 
 $$Δ13 = {(-1)^{(3+1)}} det
 \begin{bmatrix}
