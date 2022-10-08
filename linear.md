@@ -14,7 +14,7 @@ $$
 \begin{cases} `a11x+a12y+a13z=u\\\\a21x+a22y+a23z=v\\\\a31x+a32y+a33z=w` \end{cases}
 $$
 
-Dado o sistema, iremos chamar a <r>**matriz dos coeficientes**</r> de A:
+Dado o sistema, iremos chamar a <r>**matriz dos coeficientes**</r> de A: 
 
 $$A = \begin{bmatrix}
 a11 & a12 & a13\\
