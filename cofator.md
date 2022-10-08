@@ -35,7 +35,7 @@ a31 & a32
 Por definição, a base é (-1) mas o expoente sempre muda. O expoente é a soma dos índices de cada elemento da matriz, o primeiro índice significa o número da primeira linha da matriz e o segundo indice significa o número da coluna da matriz.
 Assim,
 
-### (1 + 1) seria exluindo a primeira linha e segunda coluna.
+### Δ11 seria a potência (1 + 1) e o determinante exluindo a primeira linha e primeira coluna.
 
 $$Δ11 = {(-1)x^{(1+1)}} det
 \begin{bmatrix}
@@ -43,7 +43,7 @@ a22 & a23\\
 a32 & a33
 \end{bmatrix}$$
 
-### (1 + 2) seria exluindo a primeira linha e segunda coluna.
+### Δ12 seria a potência (1 + 2) e o determinante exluindo a primeira linha e segunda coluna.
 
 $$Δ12 = {(-1)x^{(1+2)}} det
 \begin{bmatrix}
@@ -51,7 +51,7 @@ a21 & a23\\
 a31 & a33
 \end{bmatrix}$$
 
-### (1 + 3) seria exluindo a primeira linha e terceira coluna.
+### Δ13 seria a potência (1 + 3) e o determinante exluindo a primeira linha e terceira coluna.
 
 $$Δ13 = {(-1)x^{(1+3)}} det
 \begin{bmatrix}
@@ -59,31 +59,31 @@ a21 & a22\\
 a31 & a32
 \end{bmatrix}$$
 
-### (2 + 1) seria exluindo a segunda linha e primeira coluna.
+### Δ21 seria a potência (2 + 1) e o determinante exluindo a segunda linha e primeira coluna.
 
-$$Δ11 = {(-1)x^{(2+1)}} det
+$$Δ21 = {(-1)x^{(2+1)}} det
 \begin{bmatrix}
 a12 & a13\\
 a32 & a33
 \end{bmatrix}$$
 
-### (2 + 2) seria exluindo a segunda linha e segunda coluna.
+### Δ22 seria a potência (2 + 2) e o determinante exluindo a segunda linha e segunda coluna.
 
-$$Δ12 = {(-1)x^{(2+2)}} det
+$$Δ22 = {(-1)x^{(2+2)}} det
 \begin{bmatrix}
 a11 & a13\\
 a31 & a33
 \end{bmatrix}$$
 
-### (2 + 3) seria exluindo a segunda linha e terceira coluna.
+### Δ23 seria a potência (2 + 3) e o determinante exluindo a segunda linha e terceira coluna.
 
-$$Δ13 = {(-1)x^{(2+3)}} det
+$$Δ23 = {(-1)x^{(2+3)}} det
 \begin{bmatrix}
 a11 & a12\\
 a31 & a32
 \end{bmatrix}$$
 
-### (3 + 1) seria exluindo a terceira linha e primeira coluna.
+### Δ31 seria a potência (3 + 1) e o determinante exluindo a terceira linha e primeira coluna.
 
 $$Δ31 = {(-1)x^{(3+1)}} det
 \begin{bmatrix}
@@ -91,15 +91,15 @@ a12 & a13\\
 a22 & a23
 \end{bmatrix}$$
 
-### (3 + 2) seria exluindo a terceira linha e segunda coluna.
+### Δ32 seria a potência (3 + 2) e o determinante exluindo a terceira linha e segunda coluna.
 
-$$Δ31 = {(-1)x^{(3+2)}} det
+$$Δ32 = {(-1)x^{(3+2)}} det
 \begin{bmatrix}
 a11 & a13\\
 a21 & a23
 \end{bmatrix}$$
 
-### (3 + 3) seria exluindo a terceira linha e terceira coluna.
+### Δ33 seria a potência (3 + 3) e o determinante exluindo a terceira linha e terceira coluna.
 
 $$Δ33 = {(-1)x^{(3+3)}} det
 \begin{bmatrix}
