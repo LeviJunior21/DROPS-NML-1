@@ -33,7 +33,7 @@ a21 & a22\\
 a31 & a32
 \end{bmatrix}$$
 
-Por definição, a base é (-1) mas o expoente sempre muda. O expoente é a soma dos índices de cada elemento da matriz, o primeiro índice significa o número da primeira linha da matriz e o segundo indice significa o número da coluna da matriz.
+Por definição, a base é (-1) mas o expoente sempre muda. O expoente é a soma dos índices de cada elemento da matriz, o primeiro índice nesse exemplo significa o número da primeira linha da matriz e o segundo indice significa o número da coluna da matriz.
 Assim,
 
 ### Δ11 seria a potência (1 + 1) e o determinante excluindo a primeira linha e primeira coluna.
