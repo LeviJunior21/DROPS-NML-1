@@ -7,9 +7,9 @@ Embora esse conteúdo deixe algumas dúvidas sobre a sua aplicação na Álgebra
 Seja a matriz A, a matriz dos coeficientes:
 
 $$A = \begin{bmatrix}
-Δ11 & Δ12 & Δ13\\
-Δ21 & Δ22 & Δ23\\
-Δ31 & Δ32 & Δ33
+a11 & a12 & a13\\
+a21 & a22 & a23\\
+a31 & a32 & a33
 \end{bmatrix}$$
 
 Para se calcular a matriz dos cofatores, você deve-se calcular os cofatores de todos elementos da matriz, se você tiver uma matriz (NxN), então voce terá que calcular (NxN) cofatores.
@@ -18,9 +18,9 @@ Suponha a matriz acima e que queremos verificar a matriz dos cofatores de A.
 A matriz dos cofatores de A será da seguinte forma:
 
 $$Cof(A)= \begin{bmatrix}
-a11 & a12 & a13\\
-a21 & a22 & a23\\
-a31 & a32 & a33
+Δ11 & Δ12 & Δ13\\
+Δ21 & Δ22 & Δ23\\
+Δ31 & Δ32 & Δ33
 \end{bmatrix}$$
 
 Para cada elemento da matriz dos cofatores valerá a seguinte relação:
@@ -106,3 +106,16 @@ $$Δ33 = {(-1)^{(3+3)}} det
 a11 & a12\\
 a21 & a22
 \end{bmatrix}$$
+
+Em seguida, substitua cada cofator na matriz dos cofatores abaixo.
+
+$$Cof(A)= \begin{bmatrix}
+Δ11 & Δ12 & Δ13\\
+Δ21 & Δ22 & Δ23\\
+Δ31 & Δ32 & Δ33
+\end{bmatrix}$$
+
+**Além disso, caso queira a adjunta (Adj(A)) da matriz A, basta apenas fazer a matriz transposta do cofator.**
+**E caso queira a matriz inversa, basta fazer**
+
+$$A^{-1}$$
