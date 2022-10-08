@@ -1,5 +1,5 @@
 ---
-<h1>Cofator</h1>
+<h1>Matriz dos Cofatores</h1>
 ---
 
 Embora esse conteúdo deixe algumas dúvidas sobre a sua aplicação na Álgebra Linear, o cofator tem aplicação direta para realização do cálculo de determinates de matrizes pelo método de Laplace.
@@ -121,4 +121,4 @@ $$Cof(A)= \begin{bmatrix}
 $$Adj(A) = Cof(A)^{T}$$
 $$A^{-1} = \frac{1}{det(A)} . Adj(A)$$
 
-Lembrando que para calcular inversas, temos 3 métodos, uma delas usa cofator.
+Lembrando que para calcular inversas, temos 3 métodos e uma delas usa a matriz dos cofatores.
