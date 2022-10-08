@@ -90,9 +90,9 @@ O termo de maior grau é o número 1.
 
 $${1,  -10,  35,  -50,  24 | ( 1 )}$$
 $${1,  -9,   26,  -24,  0}$$
-0 é a nova constante
+E o número 0 é a nova constante
 
 Apesar de parecer que mudamos os valores das constantes, na verdade reduzimos o grau, apenas abstraimos para facilitar o entendimento
-O novo polinomio agora é 
+E agora nosso polinômio está quase fatorado, mas está dessa forma: 
 
 $${(x^{3} - 9x^{2} + 26x - 24)(x - 1)}$$
