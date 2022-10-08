@@ -51,51 +51,51 @@ que são
 $${ 1( multiplica o grau 4), -10( multiplica o grau 3), 35( multiplica o grau 2), -50( multiplica o grau 1), 24(constante)}$$
 
 ### Passo 1: Aparelhe os fatores a raíz
-$${1  -10  35  -50  24 | raíz}$$
+$${1,  -10,  35,  -50,  24 | raíz}$$
 
 ### Passo 2: Substituindo a raíz que achamos.
 Substituindo a raíz por 1 (que verificamos que é uma das raízes).
 
-$${1  -10  35  -50  24 | 1}$$
+$${1,  -10,  35,  -50,  24 | 1}$$
 
 ### Passo 3: Desça o termo de maior grau.
 O termo de maior grau é o número 1.
 
-$${1  -10  35  -50  24 | 1}$$
+$${1,  -10,  35,  -50,  24 | 1}$$
 $${1}$$
 
 ### Passo 4: Multiplique o termo de maior grau que voce desceu (termo do grau 4) pela raíz e em seguida some com o termo do grau 3 (-10).
 O termo de maior grau é o número 1.
 
-$${1  -10  35  -50  24 | 1}$$
-$${1  -9}$$
+$${1,  -10,  35,  -50,  24 | 1}$$
+$${1,  -9}$$
 - 9 é o novo termo do grau 3
 
 ### Passo 5: Multiplique o novo termo do grau 3 (o número -9) pela raíz e em seguida some com o termo do grau 2 (35).
 O termo de maior grau é o número 1.
 
-$${1  -10  35  -50  24 | 1}$$
-$${1  -9   26}$$
+$${1,  -10,  35,  -50,  24 | 1}$$
+$${1,  -9,   26}$$
 26 é o novo termo do grau 2
 
 ### Passo 6: Multiplique o novo termo do grau 2 (o número 26) pela raíz e em seguida some com o termo do grau 1 (-50).
 O termo de maior grau é o número 1.
 
-$${1  -10  35  -50  24 | 1}$$
-$${1  -9   26  -24}$$
+$${1,  -10,  35,  -50,  24 | 1}$$
+$${1,  -9,   26,  -24}$$
 -24 é o novo termo do grau 1
 
 ### Passo 6: Multiplique o novo termo do grau 1 (o número -24) pela raíz e em seguida some com o termo do grau 0 (-50).
 O termo de maior grau é o número 1.
 
-$${1  -10  35  -50  24 | 1}$$
-$${1  -9   26  -24  0}$$
+$${1,  -10,  35,  -50,  24 | 1}$$
+$${1,  -9,   26,  -24,  0}$$
 0 é a nova constante
 
 Apesar de parecer que mudamos os valores das constantes, na verdade reduzimos o grau, apenas abstraimos para facilitar o entendimento
 O novo polinomio agora é 
 
-$${(x^{3} -9x^{2} + 26x  -24)(x - 1)}$$
+$${(x^{3} - 9x^{2} + 26x - 24)(x - 1)}$$
 
 
 
