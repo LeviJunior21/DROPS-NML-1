@@ -87,6 +87,32 @@ $$T = \int -4cos(u) + 1 du$$
 
 $$\int sen^{8}{x} = \frac{1}{32} ( Q + R + S + T ) + C$$
 
-<li>Vamos resolver</li>
+<li>Vamos resolver Q primeiro.</li>
 
+$$Q = \int (\frac{(1 + cos(2u))}{2})^{2}) du$$
 
+$$Q = \int \frac{(1 + 2cos(2u) + cos^{2}(2u))}{4} du = $$
+
+$$Q = \frac{u}{4} + \frac{1}{4}\int (2cos(2u) + cos^{2}(2u)) du = $$
+
+Chame 
+
+$$n = 2u$$
+
+$$\frac{dn}{2} = u$$
+
+$$Q = \frac{u}{4} + \frac{1}{4}\int \frac{(2cos(n) + cos^{2}(n))}{2} dn = $$
+
+$$Q = \frac{u}{4} + \frac{1}{8}\int (2cos(n) + cos^{2}(n)) dn = $$
+
+$$Q = \frac{u}{4} + \frac{1}{8}(2sen(n) + \int \frac{(1 + cos(2n)}{2})) dn = $$
+
+$$Q = \frac{u}{4} + \frac{1}{8}(2sen(n) + \frac{n}{2} + \int \frac{cos(2n)}{2}) dn = $$
+
+$$g = 2n$$
+
+$$\frac{g}{2} = n$$
+
+$$Q = \frac{u}{4} + \frac{1}{8}(2sen(n) + \frac{n}{2} + \frac{1}{4}\int cos(g) dg) = $$
+
+$$Q = \frac{u}{4} + \frac{1}{8}(2sen(n) + \frac{n}{2} + \frac{1}{4} sen(g)) = $$
