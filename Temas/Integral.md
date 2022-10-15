@@ -111,7 +111,7 @@ $$Q = \frac{u}{4} + \frac{1}{8}(2sen(n) + \frac{n}{2} + \int \frac{cos(2n)}{2}) 
 
 $$g = 2n$$
 
-$$\frac{g}{2} = n$$
+$$\frac{dg}{2} = n$$
 
 $$Q = \frac{u}{4} + \frac{1}{8}(2sen(n) + \frac{n}{2} + \frac{1}{4}\int cos(g) dg) = $$
 
