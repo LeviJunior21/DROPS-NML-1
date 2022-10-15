@@ -2,7 +2,7 @@
 
 ### Métodos mais eficientes de se encontrar uma solução.
 
-<li>Grau ímpar:</li>
+<h1><li>Grau ímpar:</li></h1>
 Suponha a seguinte integral trigonometrica de grau ímpar:
 
 $$\int sen^{3}(x) dx\$$
@@ -29,8 +29,7 @@ Assim,
 
 $$\int sen^{2}(x)sen(x)\ = -cos(x) + \int u^{2} du = -cos(x) + \frac{u^3}{3}$$
 
-Mas, u = cos(x)
-Assim, 
+Mas, u = cos(x). Assim, 
 
 $$\int sen^{2}(x)sen(x)\ = -cos(x) + \int u^{2} du = -cos(x) + \frac{cos^{3}(x)}{3} + C$$
 
@@ -38,5 +37,54 @@ $$\int sen^{2}(x)sen(x)\ = -cos(x) + \int u^{2} du = -cos(x) + \frac{cos^{3}(x)}
 
 
 
+<h1><li>Grau Par:</li></h1>
+Suponha a seguinte integral trigonometrica de grau par:
 
+$$\int sen^{8}(x) dx$$
 
+Para resolver uma integral de grau par teremos que reduzir que usar algumas propriedades trigonometricas.
+
+Além disso, podemos reescrever a integral como sendo:
+$$\int sen^{2}(x)sen^{2}(x)sen^{2}(x)sen^{2}(x) dx$$
+
+Sabe-se que 
+$$sen^{2}(x) = \frac{1 - cos(2x)}{2}$$
+
+Substituindo
+
+$$\int \frac{(1 - cos(2x))}{2}\frac{(1 - cos(2x))}{2}\frac{(1 - cos(2x))}{2}\frac{(1 - cos(2x))}{2} dx =$$
+
+$$\frac{1}{16}\int (1 - cos(2x))(1 - cos(2x))(1 - cos(2x))(1 - cos(2x)) dx = $$
+
+Chame 
+
+$$u = 2x$$
+
+$$\frac{du}{2} = dx$$
+
+Assim, 
+
+$$\frac{1}{32}\int (1 - cos(u))(1 - cos(u))(1 - cos(u))(1 - cos(u)) du = $$
+
+$$\frac{1}{32}\int (1 - 2cos(u) + cos^{2})(1 - 2cos(u) + cos^{2}(u)) du= $$
+
+$$\frac{1}{32}\int (1 - 2cos(u) + cos^{2})(1 - 2cos(u) + cos^{2}(u)) = $$
+
+$$\frac {1}{32} \int [cos^{4}(u) - 4cos^{3}(u) + 6cos^{2}(u) -4cos(u) + 1] du$$
+
+Sabe-se que $$cos^{2}(u) = \frac{(1 + cos(2u))}{2}$$
+
+$$\frac {1}{32} \int [(\frac{(1 + cos(2u))}{2})^{2} - 4(1 - sen^{2}(u))cos(u) + 6\frac{(1 + cos(2u))}{2} -4cos(u) + 1] du$$
+
+Digamos que 
+$$Q = \int (\frac{(1 + cos(2u))}{2})^{2}) du$$
+
+$$R = \int -4(1 - sen^{2}(u))cos(u) du$$
+
+$$S =  \int 6\frac{(1 + cos(2u))}{2} du$$
+
+$$T = \int -4cos(u) + 1 du$$
+
+$$\frac{1}{32} \int sen^{2}{x} = Q + R + S + T + C$$
+
+Vamos resolver 
