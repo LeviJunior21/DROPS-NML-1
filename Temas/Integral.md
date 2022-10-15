@@ -85,6 +85,8 @@ $$S =  \int 6\frac{(1 + cos(2u))}{2} du$$
 
 $$T = \int -4cos(u) + 1 du$$
 
-$$\frac{1}{32} \int sen^{2}{x} = Q + R + S + T + C$$
+$$\int sen^{8}{x} = \frac{1}{32} ( Q + R + S + T ) + C$$
 
-Vamos resolver 
+<li>Vamos resolver</li>
+
+
