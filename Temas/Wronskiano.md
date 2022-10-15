@@ -58,7 +58,7 @@ Ou seja, ela nunca se anula.
 Sendo 
 
 $$g(t) = e^{-t}sen(t)$$
-Iremos determinar w1.
+Iremos determinar W1(t):
 
 $$
 W1(t) = det \begin{bmatrix}
@@ -71,4 +71,87 @@ $$
 $$W1(t) = e^{-t}sen(t)(cos^{2}(t) + sen^{2}(t))$$
 
 $$W1(t) = e^{-t}sen(t)$$
+
+<li>Determinando u(t):</li>
+
+$$u(t) = \int \frac {W1}{W} = \int \frac {e^{-t}sen(t)}{2e^{t}} dt$$
+
+$$u(t) = \int \frac {W1}{W} = \frac{1}{2} \int e^{-2t}sen(t) dt$$
+
+
+
+$$s = sen(t)$$
+
+$$ds = cos(t) dt$$
+
+$$dk = e^{-2t}$$
+
+$$k = -e^{-2t}/2$$
+
+
+$$u(t) = \frac{1}{2} \int e^{-2t}sen(t) dt = \frac{-sen(t)e^{-2t}}{2} + \frac{1}{2} \int e^{-2t}cos(t)dt$$
+
+
+$$s = cos(t)$$
+
+$$ds = -sen(t) dt$$
+
+$$dk = e^{-2t}$$
+
+$$k = -e^{-2t}/2$$
+
+$$u(t) = \frac{1}{2} \int e^{-2t}sen(t) dt = \frac{-sen(t)e^{-2t}}{2} + \frac{1}{2} (\frac{-e^{-2t}cos(t)}{2} - \frac{1}{2} \int e^{-2t}sen(t)dt)$$
+
+$$u(t) = \frac{1}{2} \int e^{-2t}sen(t) dt = \frac{-sen(t)e^{-2t}}{2} -\frac{-e^{-2t}cos(t)}{4} - \frac{1}{4} \int e^{-2t}sen(t)dt$$
+
+$$u(t) = \frac{3}{4} \int e^{-2t}sen(t) dt = \frac{-sen(t)e^{-2t}}{2} -\frac{-e^{-2t}cos(t)}{4}$$
+
+$$u(t) = \int e^{-2t}sen(t) dt = \frac{4}{3} [\frac{-sen(t)e^{-2t}}{2} -\frac{-e^{-2t}cos(t)}{4}]$$
+
+$$u(t) = \int e^{-2t}sen(t) dt = [\frac{2sen(t)e^{-2t}}{3} -\frac{-e^{-2t}cos(t)}{3}] + C$$
+
+$$u(t) = [\frac{2sen(t)e^{-2t}}{3} -\frac{-e^{-2t}cos(t)}{3}] + C$$
+
+
+
+
+
+### <li>Determinando W2(t):</li>
+
+$$
+W2(t) = det \begin{bmatrix}
+e^{t} & 0 & sen(t)\\
+e^{t} & 0 & cos(t)\\
+e^{t} & 0 & -sen(t)
+\end{bmatrix} = sen(t)(sen(t) + cos(t)) = sen^{2}(t) - sen(t)cos(t) ≠ 0
+$$
+
+$$
+W2(t) = sen^{2}(t) - sen(t)cos(t)
+$$
+
+Determinando v(t):
+
+$$
+v(t) = \int \frac {W2}{W} dt = \frac {sen^{2}(t) - sen(t)cos(t)}{2e^{t}} dt
+$$
+
+Sabemos que sen(2t) = 2sen(t)cos(t)
+Assim,
+
+$$\frac{sen(2t)}{2} = sen(t)cos(t)$$
+
+$$v(t) = \int \frac {W2}{W} dt = \int \frac {(1 - cos(2t)}{4e^{t}} - \int \frac{sen(2t)}{4e^{t}} dt$$
+
+$$v(t) = \int \frac {W2}{W} dt = \frac {1}{4} \int \frac{(1 - cos(2t)) - sen(2t)}{e^{t}} dt$$
+
+$$v(t) = \int \frac {W2}{W} dt = \frac {1}{4} \int (1 - cos(2t) - sen(2t))e^{-t} dt$$
+
+$$v(t) = \int \frac {W2}{W} dt = \frac {1}{4} \int (e^{-t} - e^{-t}cos(2t) - e^{-t}sen(2t)) dt$$
+
+$$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} \int e^{-t}cos(2t) -  \frac{1}{4}\int e^{-t}sen(2t) dt$$
+
+
+
+
 
