@@ -121,4 +121,4 @@ $$Q = \frac{u}{4} + \frac{1}{8}(2sen(n) + \frac{n}{2} + \frac{1}{4} sen(g)) = $$
 
 $$Q = \frac{2x}{4} + \frac{1}{8}(2sen(2(2x)) + \frac{2(2x)}{2} + \frac{1}{4} sen(2(2(2x))) = $$
 
-$$Q = \frac{x}{2} + \frac{sen(4x)}{4} + 2x + \frac{sen(8x)}{4} = $$
+$$Q = \frac{x}{2} + \frac{sen(4x)}{4} + \frac{x}{4} + \frac{sen(8x)}{64} = $$
