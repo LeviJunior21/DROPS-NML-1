@@ -141,7 +141,7 @@ Assim,
 
 $$\frac{sen(2t)}{2} = sen(t)cos(t)$$
 
-$$v(t) = \int \frac {W2}{W} dt = \int \frac {(1 - cos(2t)}{4e^{t}} - \int \frac{sen(2t)}{4e^{t}} dt$$
+$$v(t) = \int \frac {W2}{W} dt = \int \frac {(1 - cos(2t))}{4e^{t}} - \int \frac{sen(2t)}{4e^{t}} dt$$
 
 $$v(t) = \int \frac {W2}{W} dt = \frac {1}{4} \int \frac{(1 - cos(2t)) - sen(2t)}{e^{t}} dt$$
 
