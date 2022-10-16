@@ -149,9 +149,81 @@ $$v(t) = \int \frac {W2}{W} dt = \frac {1}{4} \int (1 - cos(2t) - sen(2t))e^{-t}
 
 $$v(t) = \int \frac {W2}{W} dt = \frac {1}{4} \int (e^{-t} - e^{-t}cos(2t) - e^{-t}sen(2t)) dt$$
 
-$$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} \int e^{-t}cos(2t) -  \frac{1}{4}\int e^{-t}sen(2t) dt$$
+$$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} \int e^{-t}cos(2t) - \frac{1}{4}\int e^{-t}sen(2t) dt$$
 
+$$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} g - \frac{1}{4}h$$
 
+Resolvendo g:
 
+$$g = \int e^{-t}cos(2t)$$
 
+$$u = e^{-t}$$
+
+$$du = -e^{-t}$$
+
+$$dv = cos(2t)$$
+
+$$g = \int cos(2t) dt = \frac{sen(2t)}{2} + C$$
+
+$$g = \frac{1}{4} \int e^{-t}cos(2t) dt = \frac{e^{-t}sen(2t}{2} + \frac{1}{2} \int e^{-t}sen(2t) dt$$
+
+$$a = e^{-t}$$
+
+$$a = -e^{-t}$$
+
+$$a = sen(2t)$$
+
+$$a = \frac{-cos(2t)}{2}$$
+
+$$g = \int e^{-t}cos(2t) = \frac{e^{-t}sen(2t}{2} + \frac{1}{2} (\frac{-e^{-t}cos(2t)}{2} - \frac{1}{2}\int e^{-t}cos(2t) dt)$$
+
+$$g = \int e^{-t}cos(2t) = \frac{e^{-t}sen(2t}{2} + \frac{-e^{-t}cos(2t)}{4} - \frac{1}{4}\int e^{-t}cos(2t) dt$$
+
+$$g = \frac{5}{4}\int e^{-t}cos(2t) = \frac{e^{-t}sen(2t}{2} + \frac{-e^{-t}cos(2t)}{4}$$
+
+$$g = \int e^{-t}cos(2t) = \frac{4}{5}[\frac{e^{-t}sen(2t}{2} + \frac{-e^{-t}cos(2t)}{4}] $$
+
+$$g = \int e^{-t}cos(2t) = [\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+
+$$g = [\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+
+Determinando h:
+
+$$h = \int e^{-t}sen(2t) dt$$
+
+$$e = e^{-t}$$
+
+$$de = -e^{-t}$$
+
+$$df = sen(2t) dt$$
+
+$$f = \int sen(2t) dt = \frac{-cos(2t)}{2}$$
+
+$$h = \int e^{-t}sen(2t) dt = \frac{-e^{-t}cos(2t)}{2} - \frac{1}{2} \int cos(2t)e^{-t} dt$$
+
+$$i = e^{-t}$$
+
+$$di = -e^{-t}$$
+
+$$dj = cos(2t) dt$$
+
+$$j = \int cos(2t) dt = \frac{sen(2t)}{2} dt$$
+
+$$h = \int e^{-t}sen(2t) dt = \frac{-e^{-t}cos(2t)}{2} - \frac{1}{2} (\frac{e^{-t}sen(2t)}{2} + \frac{1}{2}\int sen(2t)e^{-t}dt)$$
+
+$$h = \int e^{-t}sen(2t) dt = \frac{-e^{-t}cos(2t)}{2} - \frac{e^{-t}sen(2t)}{4} -\frac{1}{4}\int sen(2t)e^{-t}dt$$
+
+$$h = \frac{5}{4} \int e^{-t}sen(2t) dt = \frac{-e^{-t}cos(2t)}{2} - \frac{e^{-t}sen(2t)}{4}$$
+
+$$h = \int e^{-t}sen(2t) dt = \frac{4}{5}[\frac{-e^{-t}cos(2t)}{2} - \frac{e^{-t}sen(2t)}{4}]$$
+
+$$h = \int e^{-t}sen(2t) dt = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}] + C$$
+
+$$h = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}]$$
+
+Como 
+
+$$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} g - \frac{1}{4}h$$
+
+$$v(t) = \frac {-e^{-t}}{4} - \frac{1}{4} ([\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}]) - \frac{1}{4}([\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}])$$
 
