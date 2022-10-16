@@ -5,7 +5,7 @@ $$y^{'''} - y^{''} + y^{'} - y = e^{-t}sen(t)$$
   
 Uma Equação Diferencial Ordinária de Ordem Superior.
 Primeiro vamos escrever a equação homogênea asssociada:
- 
+
 $$y^{'''} - y^{''} + y^{'} - y = 0$$
 
 Agora escrevemos o polinômio caracteristico da equação homogênea associada:
