@@ -28,7 +28,7 @@ $$r^{3} - r^{2} + r - 1 = (r - 1)(r^{2} + 1)$$
 
 $$r^{2} + 1 = 0 => r = ±i$$
 
-$$Raizes: r1: 1, r2: i, r3: -i$$
+$$Raizes: r1 = 1, r2 = i, r3 = -i$$
 
 ### Solução Geral da Equação Homogênea Associada:
 
