@@ -227,7 +227,7 @@ $$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} g - \frac{1}{4
 
 $$v(t) = \frac {-e^{-t}}{4} - \frac{1}{4} ([\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}]) - \frac{1}{4}([\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}])$$
 
-$$v(t) = \frac {-e^{-t}}{4} - \frac{e^{-t}sen(2t)}{20} + \frac{3e^{-t}cos(2t)}{20}$$
+$$v(t) = [\frac {-e^{-t}}{4} - \frac{e^{-t}sen(2t)}{20} + \frac{3e^{-t}cos(2t)}{20}]$$
 
 ### <li>Achando w(t)</li>
 
@@ -253,15 +253,20 @@ $$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (\int -e^{-t} - \int \cos(2t)e^{-t} + 
 
 Como calculamos antes, 
 
-$$g = \int e^{-t}cos(2t) = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+\int e^{-t}cos(2t) = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
 
-$$h = \int e^{-t}sen(2t) dt = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}] + C$$
+\int e^{-t}sen(2t) dt = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}] + C$$
 
 $$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (-e^{-t} - [\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}] + [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}])$$ 
 
 $$w(t) = \int \frac{w3}{w} = \frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + \frac{e^{-t}cos(2t)}{20}$$
 
+$$w(t) = [\frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + \frac{e^{-t}cos(2t)}{20}]$$
 
+### Equação Particular da EDO:
 
+$$Yp(t) = u(y1) + v(y2) + w(y3)$$
+
+$$Yp(t) = [\frac{2sen(t)e^{-2t}}{3} -\frac{-e^{-2t}cos(t)}{3}].(y1) + [\frac {-e^{-t}}{4} - \frac{e^{-t}sen(2t)}{20} + \frac{3e^{-t}cos(2t)}{20}].(y2) + [\frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + \frac{e^{-t}cos(2t)}{20}].(y3)$$
 
 
