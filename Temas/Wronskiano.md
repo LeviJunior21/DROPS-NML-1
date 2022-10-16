@@ -243,19 +243,19 @@ $$w(t) = \int \frac{w3}{w} dt = \frac{-sen^{2}(t)}{2e^{t}} - \frac{sen(t)cos(t)}
 
 $$w(t) = \int \frac{w3}{w} dt = \int [\frac{-(1 - cos(2t))}{4e^{t}} - \frac{sen(2t)}{4e^{t}}] dt$$
 
-$$w(t) = \int \frac{w3}{w} dt = \frac{1}{4} \int [\frac{-(1 - cos(2t))}{e^{t}} - \frac{sen(2t)}{e^{t}}]$$ 
+$$w(t) = \int \frac{w3}{w} dt = \frac{1}{4} \int [\frac{-(1 - cos(2t))}{e^{t}} - \frac{sen(2t)}{e^{t}}] dt$$ 
 
-$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int [\frac{(1 - cos(2t))}{e^{t}} + \frac{sen(2t)}{e^{t}}])$$ 
+$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int [\frac{(1 - cos(2t))}{e^{t}} + \frac{sen(2t)}{e^{t}}] dt)$$ 
 
-$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} - \int \frac{cos(2t)}{e^{t}} + \int \frac{sen(2t)}{e^{t}})$$
+$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} - \int \frac{cos(2t)}{e^{t}} dt+ \int \frac{sen(2t)}{e^{t}}dt$$
 
-$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} - \int \cos(2t)e^{-t} + \int sen(2t)e^{-t})$$ 
+$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} dt - \int \cos(2t)e^{-t} dt + \int sen(2t)e^{-t} dt$$ 
 
 Como calculamos antes, 
 
-\int e^{-t}cos(2t) dt = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+$$\int e^{-t}cos(2t) dt = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
 
-\int e^{-t}sen(2t) dt = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}] + C$$
+$$\int e^{-t}sen(2t) dt = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}] + C$$
 
 $$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (-e^{-t} - [\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}] + [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}])$$ 
 
