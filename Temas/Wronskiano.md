@@ -92,13 +92,13 @@ $$k = -e^{-2t}/2$$
 $$u(t) = \frac{1}{2} \int e^{-2t}sen(t) dt = \frac{-sen(t)e^{-2t}}{2} + \frac{1}{2} \int e^{-2t}cos(t)dt$$
 
 
-$$s = cos(t)$$
+$$o = cos(t)$$
 
-$$ds = -sen(t) dt$$
+$$do = -sen(t) dt$$
 
-$$dk = e^{-2t} dt$$
+$$dp = e^{-2t} dt$$
 
-$$k = -e^{-2t}/2$$
+$$p = -e^{-2t}/2$$
 
 $$u(t) = \frac{1}{2} \int e^{-2t}sen(t) dt = \frac{-sen(t)e^{-2t}}{2} + \frac{1}{2} (\frac{-e^{-2t}cos(t)}{2} - \frac{1}{2} \int e^{-2t}sen(t)dt)$$
 
@@ -169,11 +169,11 @@ $$g = \frac{1}{4} \int e^{-t}cos(2t) dt = \frac{e^{-t}sen(2t}{2} + \frac{1}{2} \
 
 $$a = e^{-t}$$
 
-$$a = -e^{-t}$$
+$$da = -e^{-t}$$
 
-$$a = sen(2t)$$
+$$db = sen(2t)$$
 
-$$a = \frac{-cos(2t)}{2}$$
+$$b = \frac{-cos(2t)}{2}$$
 
 $$g = \int e^{-t}cos(2t) dt= \frac{e^{-t}sen(2t)}{2} + \frac{1}{2} (\frac{-e^{-t}cos(2t)}{2} - \frac{1}{2}\int e^{-t}cos(2t) dt)$$
 
