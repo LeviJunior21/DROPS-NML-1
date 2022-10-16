@@ -259,7 +259,7 @@ $$h = \int e^{-t}sen(2t) dt = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{
 
 $$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (-e^{-t} - [\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}] + [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}])$$ 
 
-$$w(t) = \int \frac{w3}{w} = \frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + {e^{-t}cos(2t)}{20}$$
+$$w(t) = \int \frac{w3}{w} = \frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + \frac{e^{-t}cos(2t)}{20}$$
 
 
 
