@@ -249,7 +249,7 @@ $$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int [\frac{(1 - cos(2t))}{e^{t}} 
 
 $$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} dt - \int \frac{cos(2t)}{e^{t}} dt+ \int \frac{sen(2t)}{e^{t}}dt)$$
 
-$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} dt - \int \cos(2t)e^{-t} dt + \int sen(2t)e^{-t} dt$$ 
+$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} dt - \int \cos(2t)e^{-t} dt + \int sen(2t)e^{-t} dt)$$ 
 
 Como calculamos antes, 
 
