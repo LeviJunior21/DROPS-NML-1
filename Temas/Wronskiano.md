@@ -239,7 +239,7 @@ e^{t} & -cos(t) & 0
 \end{bmatrix} = sen(t)(-sen(t) - cos(t)) = -sen^{2}(t) - sen(t)cos(t)
 $$
 
-$$w(t) = \int \frac{w3}{w} dt = \frac{-sen^{2}(t)}{2e^{t}} - \frac{sen(t)cos(t)}{2e^{t}}$$
+$$w(t) = \int \frac{w3}{w} dt = \int [\frac{-sen^{2}(t)}{2e^{t}} - \frac{sen(t)cos(t)}{2e^{t}}] dt$$
 
 $$w(t) = \int \frac{w3}{w} dt = \int [\frac{-(1 - cos(2t))}{4e^{t}} - \frac{sen(2t)}{4e^{t}}] dt$$
 
@@ -247,7 +247,7 @@ $$w(t) = \int \frac{w3}{w} dt = \frac{1}{4} \int [\frac{-(1 - cos(2t))}{e^{t}} -
 
 $$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int [\frac{(1 - cos(2t))}{e^{t}} + \frac{sen(2t)}{e^{t}}] dt)$$ 
 
-$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} - \int \frac{cos(2t)}{e^{t}} dt+ \int \frac{sen(2t)}{e^{t}}dt$$
+$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} dt - \int \frac{cos(2t)}{e^{t}} dt+ \int \frac{sen(2t)}{e^{t}}dt$$
 
 $$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} dt - \int \cos(2t)e^{-t} dt + \int sen(2t)e^{-t} dt$$ 
 
