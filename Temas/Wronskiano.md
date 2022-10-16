@@ -267,6 +267,10 @@ $$w(t) = [\frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + \frac{e^{-t}cos(2t)}{20
 
 $$Yp(t) = u(y1) + v(y2) + w(y3)$$
 
-$$Yp(t) = [\frac{2sen(t)e^{-2t}}{3} -\frac{-e^{-2t}cos(t)}{3}].(e^{t}) + [\frac {-e^{-t}}{4} - \frac{e^{-t}sen(2t)}{20} + \frac{3e^{-t}cos(2t)}{20}].(cos(t)) + [\frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + \frac{e^{-t}cos(2t)}{20}].(sen(t))$$
+$$Yp(t) = [\frac{2sen(t)e^{-2t}}{3} -\frac{-e^{-2t}cos(t)}{3}].e^{t} + [\frac {-e^{-t}}{4} - \frac{e^{-t}sen(2t)}{20} + \frac{3e^{-t}cos(2t)}{20}].cos(t) + [\frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + \frac{e^{-t}cos(2t)}{20}].sen(t)$$ 
+
+$$y(t) = C1e^{t} + C2cos(t) + C3sen(t) + P(t)$$
+
+$$y(t) = C1e^{t} + C2cos(t) + C3sen(t) + [\frac{2sen(t)e^{-2t}}{3} -\frac{-e^{-2t}cos(t)}{3}].e^{t} + [\frac {-e^{-t}}{4} - \frac{e^{-t}sen(2t)}{20} + \frac{3e^{-t}cos(2t)}{20}].cos(t) + [\frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + \frac{e^{-t}cos(2t)}{20}].sen(t)$$
 
 
