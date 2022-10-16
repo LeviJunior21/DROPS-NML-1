@@ -2,7 +2,7 @@
 
 Seja
 $$y^{'''} - y^{''} + y^{'} - y = e^{-t}sen(t)$$
-  
+
 Uma Equação Diferencial Ordinária de Ordem Superior.
 Primeiro vamos escrever a equação homogênea asssociada:
 
