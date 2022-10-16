@@ -32,7 +32,7 @@ $$Raizes: r1: 1, r2: i, r3: -i$$
 
 ### Solução Geral da Equação Homogênea Associada:
 
-$$y(t) = C1e^{t} + C2cos(t) + C3sen(t) + P(t)$$
+$$y(t) = C1e^{t} + C2cos(t) + C3sen(t) + P(t)$$ 
 
 Determinando a equação particular por variações de parâmetros.
 
