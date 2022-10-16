@@ -175,15 +175,15 @@ $$a = sen(2t)$$
 
 $$a = \frac{-cos(2t)}{2}$$
 
-$$g = \int e^{-t}cos(2t) = \frac{e^{-t}sen(2t)}{2} + \frac{1}{2} (\frac{-e^{-t}cos(2t)}{2} - \frac{1}{2}\int e^{-t}cos(2t) dt)$$
+$$g = \int e^{-t}cos(2t) dt= \frac{e^{-t}sen(2t)}{2} + \frac{1}{2} (\frac{-e^{-t}cos(2t)}{2} - \frac{1}{2}\int e^{-t}cos(2t) dt)$$
 
-$$g = \int e^{-t}cos(2t) = \frac{e^{-t}sen(2t)}{2} + \frac{-e^{-t}cos(2t)}{4} - \frac{1}{4}\int e^{-t}cos(2t) dt$$
+$$g = \int e^{-t}cos(2t) dt= \frac{e^{-t}sen(2t)}{2} + \frac{-e^{-t}cos(2t)}{4} - \frac{1}{4}\int e^{-t}cos(2t) dt$$
 
-$$g = \frac{5}{4}\int e^{-t}cos(2t) = \frac{e^{-t}sen(2t}{2} + \frac{-e^{-t}cos(2t)}{4}$$
+$$g = \frac{5}{4}\int e^{-t}cos(2t) dt= \frac{e^{-t}sen(2t}{2} + \frac{-e^{-t}cos(2t)}{4}$$
 
-$$g = \int e^{-t}cos(2t) = \frac{4}{5}[\frac{e^{-t}sen(2t)}{2} + \frac{-e^{-t}cos(2t)}{4}] $$
+$$g = \int e^{-t}cos(2t) dt= \frac{4}{5}[\frac{e^{-t}sen(2t)}{2} + \frac{-e^{-t}cos(2t)}{4}] $$
 
-$$g = \int e^{-t}cos(2t) = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+$$g = \int e^{-t}cos(2t) dt= [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
 
 $$g = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
 
@@ -239,21 +239,21 @@ e^{t} & -cos(t) & 0
 \end{bmatrix} = sen(t)(-sen(t) - cos(t)) = -sen^{2}(t) - sen(t)cos(t)
 $$
 
-$$w(t) = \int \frac{w3}{w} = \frac{-sen^{2}(t)}{2e^{t}} - \frac{sen(t)cos(t)}{2e^{t}}$$
+$$w(t) = \int \frac{w3}{w} dt = \frac{-sen^{2}(t)}{2e^{t}} - \frac{sen(t)cos(t)}{2e^{t}}$$
 
-$$w(t) = \int \frac{w3}{w} = \int [\frac{-(1 - cos(2t))}{4e^{t}} - \frac{sen(2t)}{4e^{t}}] dt$$
+$$w(t) = \int \frac{w3}{w} dt = \int [\frac{-(1 - cos(2t))}{4e^{t}} - \frac{sen(2t)}{4e^{t}}] dt$$
 
-$$w(t) = \int \frac{w3}{w} = \frac{1}{4} \int [\frac{-(1 - cos(2t))}{e^{t}} - \frac{sen(2t)}{e^{t}}]$$ 
+$$w(t) = \int \frac{w3}{w} dt = \frac{1}{4} \int [\frac{-(1 - cos(2t))}{e^{t}} - \frac{sen(2t)}{e^{t}}]$$ 
 
-$$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (\int [\frac{(1 - cos(2t))}{e^{t}} + \frac{sen(2t)}{e^{t}}])$$ 
+$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int [\frac{(1 - cos(2t))}{e^{t}} + \frac{sen(2t)}{e^{t}}])$$ 
 
-$$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (\int -e^{-t} - \int \frac{cos(2t)}{e^{t}} + \int \frac{sen(2t)}{e^{t}})$$
+$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} - \int \frac{cos(2t)}{e^{t}} + \int \frac{sen(2t)}{e^{t}})$$
 
-$$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (\int -e^{-t} - \int \cos(2t)e^{-t} + \int sen(2t)e^{-t})$$ 
+$$w(t) = \int \frac{w3}{w} dt = \frac{-1}{4} (\int -e^{-t} - \int \cos(2t)e^{-t} + \int sen(2t)e^{-t})$$ 
 
 Como calculamos antes, 
 
-\int e^{-t}cos(2t) = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+\int e^{-t}cos(2t) dt = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
 
 \int e^{-t}sen(2t) dt = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}] + C$$
 
