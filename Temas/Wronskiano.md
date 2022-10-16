@@ -232,10 +232,19 @@ $$v(t) = \frac {-e^{-t}}{4} - \frac{e^{-t}sen(2t)}{20} + \frac{3e^{-t}cos(2t)}{2
 ### <li>Achando w(t)</li>
 
 $$
-w(t) = det \begin{bmatrix}
+w3(t) = det \begin{bmatrix}
 e^{t} & cos(t) & 0\\
 e^{t} & -sen(t) & 0\\
 e^{t} & -cos(t) & 0
-\end{bmatrix} = sen(t)(-sen(t) - cos(t)) = -sen^{2}(t)cos(t)
+\end{bmatrix} = sen(t)(-sen(t) - cos(t)) = -sen^{2}(t) - sen(t)cos(t)
 $$
+
+$$w(t) = \int \frac{w3}{w} = \frac{-sen^{2}(t)}{2e^{t}} - \frac{sen(t)cos(t)}{2e^{t}}$$
+
+$$w(t) = \int \frac{w3}{w} = \int [\frac{-(1 - cos(2t))}{4e^{t}} - \frac{sen(2t)}{4e^{t}}] dt$$
+
+
+
+
+
 
