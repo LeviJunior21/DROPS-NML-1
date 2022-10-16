@@ -1,4 +1,4 @@
-<h1>Wronskiano</h1>
+<h1>Aplicação com o Wronskiano</h1>
 
 Seja
 $$y^{'''} - y^{''} + y^{'} - y = e^{-t}sen(t)$$
