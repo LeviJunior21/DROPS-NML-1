@@ -155,7 +155,7 @@ $$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} g - \frac{1}{4
 
 Resolvendo g:
 
-$$g = \int e^{-t}cos(2t)$$
+$$g = \int e^{-t}cos(2t) dt$$
 
 $$u = e^{-t}$$
 
