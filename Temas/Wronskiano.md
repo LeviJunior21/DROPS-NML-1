@@ -133,7 +133,7 @@ $$
 Determinando v(t):
 
 $$
-v(t) = \int \frac {W2}{W} dt = \frac {sen^{2}(t) - sen(t)cos(t)}{2e^{t}} dt
+v(t) = \int \frac {W2}{W} dt =  \int \frac {sen^{2}(t) - sen(t)cos(t)}{2e^{t}} dt
 $$
 
 Sabemos que sen(2t) = 2sen(t)cos(t)
@@ -149,7 +149,7 @@ $$v(t) = \int \frac {W2}{W} dt = \frac {1}{4} \int (1 - cos(2t) - sen(2t))e^{-t}
 
 $$v(t) = \int \frac {W2}{W} dt = \frac {1}{4} \int (e^{-t} - e^{-t}cos(2t) - e^{-t}sen(2t)) dt$$
 
-$$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} \int e^{-t}cos(2t) - \frac{1}{4}\int e^{-t}sen(2t) dt$$
+$$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} \int e^{-t}cos(2t) dt - \frac{1}{4}\int e^{-t}sen(2t) dt$$
 
 $$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} g - \frac{1}{4}h$$
 
