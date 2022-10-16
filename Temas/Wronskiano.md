@@ -175,17 +175,17 @@ $$a = sen(2t)$$
 
 $$a = \frac{-cos(2t)}{2}$$
 
-$$g = \int e^{-t}cos(2t) = \frac{e^{-t}sen(2t}{2} + \frac{1}{2} (\frac{-e^{-t}cos(2t)}{2} - \frac{1}{2}\int e^{-t}cos(2t) dt)$$
+$$g = \int e^{-t}cos(2t) = \frac{e^{-t}sen(2t)}{2} + \frac{1}{2} (\frac{-e^{-t}cos(2t)}{2} - \frac{1}{2}\int e^{-t}cos(2t) dt)$$
 
-$$g = \int e^{-t}cos(2t) = \frac{e^{-t}sen(2t}{2} + \frac{-e^{-t}cos(2t)}{4} - \frac{1}{4}\int e^{-t}cos(2t) dt$$
+$$g = \int e^{-t}cos(2t) = \frac{e^{-t}sen(2t)}{2} + \frac{-e^{-t}cos(2t)}{4} - \frac{1}{4}\int e^{-t}cos(2t) dt$$
 
 $$g = \frac{5}{4}\int e^{-t}cos(2t) = \frac{e^{-t}sen(2t}{2} + \frac{-e^{-t}cos(2t)}{4}$$
 
-$$g = \int e^{-t}cos(2t) = \frac{4}{5}[\frac{e^{-t}sen(2t}{2} + \frac{-e^{-t}cos(2t)}{4}] $$
+$$g = \int e^{-t}cos(2t) = \frac{4}{5}[\frac{e^{-t}sen(2t)}{2} + \frac{-e^{-t}cos(2t)}{4}] $$
 
-$$g = \int e^{-t}cos(2t) = [\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+$$g = \int e^{-t}cos(2t) = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
 
-$$g = [\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+$$g = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
 
 Determinando h:
 
@@ -225,7 +225,7 @@ Como
 
 $$v(t) = \int \frac {W2}{W} dt = \frac {-e^{-t}}{4} - \frac{1}{4} g - \frac{1}{4}h$$
 
-$$v(t) = \frac {-e^{-t}}{4} - \frac{1}{4} ([\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}]) - \frac{1}{4}([\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}])$$
+$$v(t) = \frac {-e^{-t}}{4} - \frac{1}{4} ([\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}]) - \frac{1}{4}([\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}])$$
 
 $$v(t) = \frac {-e^{-t}}{4} - \frac{e^{-t}sen(2t)}{20} + \frac{3e^{-t}cos(2t)}{20}$$
 
