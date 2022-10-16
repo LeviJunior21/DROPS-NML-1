@@ -197,7 +197,7 @@ $$de = -e^{-t}$$
 
 $$df = sen(2t) dt$$
 
-$$f = \int sen(2t) dt = \frac{-cos(2t)}{2}$$
+$$f = \int sen(2t) dt = \frac{-cos(2t)}{2} + C$$
 
 $$h = \int e^{-t}sen(2t) dt = \frac{-e^{-t}cos(2t)}{2} - \frac{1}{2} \int cos(2t)e^{-t} dt$$
 
