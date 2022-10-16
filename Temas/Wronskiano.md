@@ -207,7 +207,7 @@ $$di = -e^{-t}$$
 
 $$dj = cos(2t) dt$$
 
-$$j = \int cos(2t) dt = \frac{sen(2t)}{2} dt$$
+$$j = \int cos(2t) dt = \frac{sen(2t)}{2} + C$$
 
 $$h = \int e^{-t}sen(2t) dt = \frac{-e^{-t}cos(2t)}{2} - \frac{1}{2} (\frac{e^{-t}sen(2t)}{2} + \frac{1}{2}\int sen(2t)e^{-t}dt)$$
 
