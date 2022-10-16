@@ -243,6 +243,23 @@ $$w(t) = \int \frac{w3}{w} = \frac{-sen^{2}(t)}{2e^{t}} - \frac{sen(t)cos(t)}{2e
 
 $$w(t) = \int \frac{w3}{w} = \int [\frac{-(1 - cos(2t))}{4e^{t}} - \frac{sen(2t)}{4e^{t}}] dt$$
 
+$$w(t) = \int \frac{w3}{w} = \frac{1}{4} \int [\frac{-(1 - cos(2t))}{e^{t}} - \frac{sen(2t)}{e^{t}}]$$ 
+
+$$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (\int [\frac{(1 - cos(2t))}{e^{t}} + \frac{sen(2t)}{e^{t}}])$$ 
+
+$$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (\int -e^{-t} - \int \frac{cos(2t)}{e^{t}} + \int \frac{sen(2t)}{e^{t}})$$
+
+$$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (\int -e^{-t} - \int \cos(2t)e^{-t} + \int sen(2t)e^{-t})$$ 
+
+Como calculamos antes, 
+
+$$g = \int e^{-t}cos(2t) = [\frac{2e^{-t}sen(2t)}{5} + \frac{-e^{-t}cos(2t)}{5}] $$
+
+$$h = \int e^{-t}sen(2t) dt = [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}] + C$$
+
+$$w(t) = \int \frac{w3}{w} = \frac{-1}{4} (-e^{-t} - [\frac{2e^{-t}sen(2t}{5} + \frac{-e^{-t}cos(2t)}{5}] + [\frac{-2e^{-t}cos(2t)}{5} - \frac{e^{-t}sen(2t)}{5}])$$ 
+
+$$w(t) = \int \frac{w3}{w} = \frac{e^{-t}}{4} + \frac{3e^{-t}sen(2t)}{20} + {e^{-t}cos(2t)}{20}$$
 
 
 
