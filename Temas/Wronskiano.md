@@ -98,7 +98,7 @@ $$do = -sen(t) dt$$
 
 $$dp = e^{-2t} dt$$
 
-$$p = -e^{-2t}/2$$
+$$p = \frac{-e^{-2t}}{2}$$
 
 $$u(t) = \frac{1}{2} \int e^{-2t}sen(t) dt = \frac{-sen(t)e^{-2t}}{2} + \frac{1}{2} (\frac{-e^{-2t}cos(t)}{2} - \frac{1}{2} \int e^{-2t}sen(t)dt)$$
 
